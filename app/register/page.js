@@ -135,13 +135,13 @@ export default function Page() {
                 </div>
                 <div className="relative">
                   <label className="text-2xl">Email</label>
-                  <p>********</p>
+                  <p>{formData.email}</p>
                   <div className="border-b-[0.1px] w-[20vw] border-neutral-300 bottom-0"></div>
                 </div>
               </div>
               <div className="space-y-2 relative">
                 <label className="text-2xl">Password</label>
-                <p>{formData.password}</p>
+                <p>********</p>
                 <div className="border-b-[0.1px] w-[20vw] border-neutral-300 bottom-0"></div>
               </div>
             </div>
