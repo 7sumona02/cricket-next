@@ -1,0 +1,14 @@
+.intro{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-top: 15vh;
+}
+
+.intro h1{
+    color: white;
+    font-size: 7vw;
+    z-index: 3;
+    text-align: center;
+    white-space: nowrap;
+}

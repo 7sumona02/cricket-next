@@ -1,0 +1,31 @@
+.main{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .body{
+    /* transform: translateY(-5em); */
+    width: 80%;
+    font-size: 2vw;
+    text-align: center;
+  }
+  
+  .loader{
+    height: calc(100vh + 200px);
+    width: 100%;
+    position: fixed;
+    z-index: 1000;
+  }
+  
+  .loader svg{
+    height: 100%;
+    width: 100%;
+  }
+  
+  .loader svg path{
+    stroke: black;
+    stroke-width: 1px;
+  }
+  
